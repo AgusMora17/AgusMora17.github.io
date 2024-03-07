@@ -10893,8 +10893,9 @@ video.bg-video {
 }
 .pantic .pantic-content {
   position: relative;
-  max-width: 70rem;
-  
+  max-width: 90rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .pantic .pantic-content h1, .pantic .pantic-content .h1 {
   font-size: 2.5rem;
@@ -10928,6 +10929,9 @@ video.bg-video {
     font-size: 1.3rem;
   }
 }
+
+
+
 
 
 
