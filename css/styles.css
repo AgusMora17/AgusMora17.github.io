@@ -10872,70 +10872,6 @@ video.bg-video {
   }
 }
 
-.pantic {
-  position: relative;
-  overflow: hidden;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.pantic:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
-}
-.pantic .pantic-content {
-  position: relative;
-  max-width: 90rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-.pantic .pantic-content h1, .pantic .pantic-content .h1 {
-  font-size: 2.5rem;
-}
-.pantic .pantic-content p {
-  font-size: 1.2rem;
-}
-.pantic .pantic-content p strong {
-  font-weight: 700;
-}
-
-
-@media (min-width: 992px) {
-  .pantic {
-    height: 100%;
-    width: 100%;
-    min-height: 0;
-    padding-bottom: 0;
-  }
-  
-  .pantic .pantic-content {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 9rem;
-    padding-right: 9rem;
-  }
-  .pantic .pantic-content h1, .pantic .pantic-content .h1 {
-    font-size: 3.5rem;
-  }
-  .pantic .pantic-content p {
-    font-size: 1.3rem;
-  }
-}
-
-
-
-
-
-
-
 
 .masthead {
   position: relative;
@@ -11089,7 +11025,7 @@ video.bg-video {
   padding: calc(1rem + 2px);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1350px) {
   .pep {
     height: 100%;
     width: 100%;
@@ -11111,3 +11047,60 @@ video.bg-video {
   }
 }
 
+.pantic {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pantic:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.pantic .pantic-content {
+  position: relative;
+  max-width: 90rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.pantic .pantic-content h1, .pantic .pantic-content .h1 {
+  font-size: 2.5rem;
+}
+.pantic .pantic-content p {
+  font-size: 1.2rem;
+}
+.pantic .pantic-content p strong {
+  font-weight: 700;
+}
+
+
+@media (min-width: 992px) {
+  .pantic {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    padding-bottom: 0;
+  }
+  
+  .pantic .pantic-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .pantic .pantic-content h1, .pantic .pantic-content .h1 {
+    font-size: 3.5rem;
+  }
+  .pantic .pantic-content p {
+    font-size: 1.3rem;
+  }
+}
